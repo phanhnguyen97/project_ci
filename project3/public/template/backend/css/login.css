@@ -1,0 +1,96 @@
+a:link ,
+a:active {
+    color: #025A8D;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: #025A8D;
+}
+
+a:hover {
+    color: #025A8D;
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+header {
+    height: 168px;
+
+}
+/*  itq-wrapper */
+section.itq-wrapper {
+    width: 390px;
+    margin: 0 auto;
+}
+/* section.itq-wrapper form {
+
+} */
+section.itq-wrapper form fieldset {
+    padding: 20px 15px 0 15px;
+}
+section.itq-wrapper form fieldset ul.error {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+}
+section.itq-wrapper form fieldset ul.error li {
+    color: red;
+    margin: 5px 0;
+}
+section.itq-wrapper form fieldset legend {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section.itq-wrapper form label {
+    display: block;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+section.itq-wrapper form label p {
+    float: left;
+    margin: 0;
+    width: 125px;
+}
+section.itq-wrapper form label input {
+    width: 210px;
+    padding: 3px 5px;
+    float: right;
+}
+/* section.itq-wrapper form label input.txtEmail {
+    
+} */
+section.itq-wrapper form fieldset section {
+    text-align: right;
+    padding: 15px 0 0 0;
+    margin: 0 0 15px 0;
+}
+section.itq-wrapper form fieldset section input {
+    margin:  0 0 0 10px;
+    padding: 5px 10px;
+    
+}
+section.itq-wrapper form fieldset nav {
+    text-align: right;
+    margin:  0 0 20px 0;
+}
+section.itq-wrapper form fieldset nav ul {
+    padding: 0;
+    margin: 0;
+    list-style:  none;
+}
+section.itq-wrapper form fieldset nav ul li {
+    display: inline-block;
+    margin:  0 0 0 5px;
+}
+/* footer */
+
+footer {
+    width: 390px;
+    margin: 0 auto;
+}
+footer p {
+    text-align: right;
+}
